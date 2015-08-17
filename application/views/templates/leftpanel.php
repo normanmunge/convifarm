@@ -8,7 +8,7 @@
         <div class="media leftpanel-profile">
           <div class="media-left">
             <a href="#">
-              <img src="../images/photos/loggeduser.png" alt="" class="media-object img-circle">
+                <img src="<?php echo base_url(); ?>assets/images/photos/loggeduser.png" alt="" class="media-object img-circle">
             </a>
           </div>
           <div class="media-body">
@@ -53,7 +53,7 @@
           <li class="tooltips unread" data-toggle="tooltip" title="Check Mail"><a data-toggle="tab" data-target="#emailmenu"><i class="tooltips fa fa-envelope"></i></a></li>
           <li class="tooltips" data-toggle="tooltip" title="Contacts"><a data-toggle="tab" data-target="#contactmenu"><i class="fa fa-user"></i></a></li>
           <li class="tooltips" data-toggle="tooltip" title="Settings"><a data-toggle="tab" data-target="#settings"><i class="fa fa-cog"></i></a></li>
-          <li class="tooltips" data-toggle="tooltip" title="Log Out"><a href="signin.html"><i class="fa fa-sign-out"></i></a></li>
+          <li class="tooltips" data-toggle="tooltip" title="Log Out"><a href="<?php echo site_url('convifarm/signin')?>"><i class="fa fa-sign-out"></i></a></li>
         </ul>
 
         <div class="tab-content">
@@ -92,22 +92,20 @@
                   <li><a href="extras.html">Extras</a></li>
                 </ul>
               </li>
-              <li class="nav-parent active"><a href="#"><i class="fa fa-th-list"></i> <span>Tables</span></a>
+              <li class="nav-parent"><a href="#"><i class="fa fa-th-list"></i> <span>Tables</span></a>
                 <ul class="children">
-                  <li class="active"><a href="basic-tables.html">Basic Tables</a></li>
+                  <li><a href="basic-tables.html">Basic Tables</a></li>
                   <li><a href="data-tables.html">Data Tables</a></li>
                 </ul>
               </li>
-              <li class="nav-parent"><a href="#"><i class="fa fa-file-text"></i> <span>Pages</span></a>
+              <li class="nav-parent active"><a href="#"><i class="fa fa-file-text"></i> <span>Pages</span></a>
                 <ul class="children">
-                  <li><a href="asset-manager.html">Asset Manager</a></li>
-                  <li><a href="people-directory.html">People Directory</a></li>
-                  <li><a href="timeline.html">Timeline</a></li>
-                  <li><a href="profile.html">Profile</a></li>
-                  <li><a href="blank.html">Blank Page</a></li>
-                  <li><a href="notfound.html">404 Page</a></li>
-                  <li><a href="signin.html">Sign In</a></li>
-                  <li><a href="signup.html">Sign Up</a></li>
+                    <li class="active"><a href="<?php echo site_url('convifarm/asset-manager')?>">Asset Manager</a></li>
+                    <li><a href="<?php echo site_url('convifarm/people-directory')?>">People Directory</a></li>
+                    <li><a href="<?php echo site_url('assets/profile'); ?>">Profile</a></li>
+                    <li><a href="<?php echo site_url('assets/notfound');?>">404 Page</a></li>
+                  <li><a href="<?php echo site_url('convifarm/signin');?>">Sign In</a></li>
+                  <li><a href="<?php echo site_url('convifarm/signup')?>">Sign Up</a></li>
                 </ul>
               </li>
             </ul>
@@ -122,9 +120,9 @@
 
             <h5 class="sidebar-title">Mailboxes</h5>
             <ul class="nav nav-pills nav-stacked nav-quirk nav-mail">
-              <li><a href="email.html"><i class="fa fa-inbox"></i> <span>Inbox (3)</span></a></li>
-              <li><a href="email.html"><i class="fa fa-pencil"></i> <span>Draft (2)</span></a></li>
-              <li><a href="email.html"><i class="fa fa-paper-plane"></i> <span>Sent</span></a></li>
+                <li><a href="<?php echo site_url('convifarm/email');?>"><i class="fa fa-inbox"></i> <span>Inbox (3)</span></a></li>
+              <li><a href="<?php echo site_url('convifarm/email');?>"><i class="fa fa-pencil"></i> <span>Draft (2)</span></a></li>
+              <li><a href="<?php echo site_url('convifarm/email');?>"><i class="fa fa-paper-plane"></i> <span>Sent</span></a></li>
             </ul>
 
             <h5 class="sidebar-title">Tags</h5>
@@ -150,7 +148,7 @@
               <li class="media">
                 <a href="#">
                   <div class="media-left">
-                    <img class="media-object img-circle" src="../images/photos/user1.png" alt="">
+                    <img class="media-object img-circle" src="<?php echo base_url(); ?>assets/images/photos/user1.png" alt="">
                   </div>
                   <div class="media-body">
                     <h4 class="media-heading">Christina R. Hill</h4>
@@ -161,7 +159,7 @@
               <li class="media">
                 <a href="#">
                   <div class="media-left">
-                    <img class="media-object img-circle" src="../images/photos/user2.png" alt="">
+                    <img class="media-object img-circle" src="<?php echo base_url(); ?>assets/images/photos/user2.png" alt="">
                   </div>
                   <div class="media-body">
                     <h4 class="media-heading">Floyd M. Romero</h4>
@@ -172,7 +170,7 @@
               <li class="media">
                 <a href="#">
                   <div class="media-left">
-                    <img class="media-object img-circle" src="../images/photos/user3.png" alt="">
+                    <img class="media-object img-circle" src="<?php echo base_url(); ?>assets/images/photos/user3.png" alt="">
                   </div>
                   <div class="media-body">
                     <h4 class="media-heading">Jennie S. Gray</h4>
@@ -183,7 +181,7 @@
               <li class="media">
                 <a href="#">
                   <div class="media-left">
-                    <img class="media-object img-circle" src="../images/photos/user4.png" alt="">
+                    <img class="media-object img-circle" src="<?php echo base_url(); ?>assets/images/photos/user4.png" alt="">
                   </div>
                   <div class="media-body">
                     <h4 class="media-heading">Alia J. Locher</h4>
@@ -194,7 +192,7 @@
               <li class="media">
                 <a href="#">
                   <div class="media-left">
-                    <img class="media-object img-circle" src="../images/photos/user5.png" alt="">
+                    <img class="media-object img-circle" src="<?php echo base_url(); ?>assets/images/photos/user5.png" alt="">
                   </div>
                   <div class="media-body">
                     <h4 class="media-heading">Nicholas T. Hinkle</h4>
@@ -205,7 +203,7 @@
               <li class="media">
                 <a href="#">
                   <div class="media-left">
-                    <img class="media-object img-circle" src="../images/photos/user6.png" alt="">
+                    <img class="media-object img-circle" src="<?php echo base_url(); ?>assets/images/photos/user6.png" alt="">
                   </div>
                   <div class="media-body">
                     <h4 class="media-heading">Jamie W. Bradford</h4>
@@ -216,7 +214,7 @@
               <li class="media">
                 <a href="#">
                   <div class="media-left">
-                    <img class="media-object img-circle" src="../images/photos/user7.png" alt="">
+                    <img class="media-object img-circle" src="<?php echo base_url(); ?>assets/images/photos/user7.png" alt="">
                   </div>
                   <div class="media-body">
                     <h4 class="media-heading">Pamela J. Stump</h4>
@@ -227,7 +225,7 @@
               <li class="media">
                 <a href="#">
                   <div class="media-left">
-                    <img class="media-object img-circle" src="../images/photos/user8.png" alt="">
+                    <img class="media-object img-circle" src="<?php echo base_url(); ?>assets/images/photos/user8.png" alt="">
                   </div>
                   <div class="media-body">
                     <h4 class="media-heading">Refugio C. Burgess</h4>
@@ -238,7 +236,7 @@
               <li class="media">
                 <a href="#">
                   <div class="media-left">
-                    <img class="media-object img-circle" src="../images/photos/user9.png" alt="">
+                    <img class="media-object img-circle" src="<?php echo base_url(); ?>assets/images/photos/user9.png" alt="">
                   </div>
                   <div class="media-body">
                     <h4 class="media-heading">Ashley T. Brewington</h4>
@@ -249,7 +247,7 @@
               <li class="media">
                 <a href="#">
                   <div class="media-left">
-                    <img class="media-object img-circle" src="../images/photos/user10.png" alt="">
+                    <img class="media-object img-circle" src="<?php echo base_url(); ?>assets/images/photos/user10.png" alt="">
                   </div>
                   <div class="media-body">
                     <h4 class="media-heading">Roberta F. Horn</h4>

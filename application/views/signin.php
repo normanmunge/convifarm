@@ -60,7 +60,7 @@
       </form>
       <hr class="invisible">
       <div class="form-group">
-          <a href="<?php echo site_url('convifarm/signup')?>" class="btn btn-default btn-quirk btn-stroke btn-stroke-thin btn-block btn-sign">Not a member? Sign up now!</a>
+          <a href="<?php echo site_url('convifarm/signup'); ?>" class="btn btn-default btn-quirk btn-stroke btn-stroke-thin btn-block btn-sign">Not a member? Sign up now!</a>
       </div>
     </div>
   </div><!-- panel -->

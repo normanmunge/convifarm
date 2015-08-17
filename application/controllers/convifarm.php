@@ -20,19 +20,27 @@ class Convifarm extends CI_Controller {
     public function home()
         {
             $this->data['title'] = 'ConviFarm | KilimoRahisi';
-            $this->data['content'] = 'signin';
+            $this->data['content'] = 'home';
 		$this->signin();
             //$this->_load_view();
         }
         
     public function signin(){
-        $this->data['title'] = 'ConviFarm | KilimoRahisi';
+       $this->data['title'] = 'ConviFarm | KilimoRahisi';
         
         $this->load->view('signin');
     }
     
     public function signup() {
+        $this->data['title'] = 'ConviFarm | KilimoRahisi';
         
         $this->load->view('signup');
+    }
+    public function dashboard() {
+        $this->data['title'] = 'ConviFarm | KilimoRahisi';
+        $this->data['content'] = 'asset-manager';
+        
+        $this->_load_view();
+        
     }
 }

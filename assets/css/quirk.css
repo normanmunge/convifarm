@@ -9217,6 +9217,9 @@ blockquote {
 .headerpanel .logopanel h2 > a:hover {
   color: #31c1d2;
 }
+.logopanel_color{
+    color: #228B22;
+}
 @media (min-width: 992px) {
   .headerpanel .logopanel {
     left: 0 !important;
@@ -14128,7 +14131,7 @@ fieldset[disabled] .btn-fb.active {
   }
 }
 .signup h1 {
-  color: #259dab;
+  color: #32CD32;
   text-align: center;
   margin: 0;
   font-weight: 500;

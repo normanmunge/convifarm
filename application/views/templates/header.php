@@ -9,7 +9,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
   <meta name="description" content="">
   <meta name="author" content="">
-  <!--<link rel="shortcut icon" href="../images/favicon.png" type="image/png">-->
+  <!--<link rel="shortcut icon" href="<?php //echo base_url();?>assets/images/favicon.png" type="image/png">-->
 
   <title><?php echo $title ?></title>
 
@@ -32,8 +32,8 @@
   <header>
     <div class="headerpanel">
 
-      <div class="logopanel">
-        <h2><a href="#"><?php echo $title ?></a></h2>
+      <div class="logopanel logopanel_color">
+          <h5><a href="#"><?php echo $title ?></a></h5>
       </div><!-- logopanel -->
 
       <div class="headerbar">

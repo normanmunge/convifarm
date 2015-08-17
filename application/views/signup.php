@@ -1,26 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<!-- Mirrored from themepixels.com/demo/webpage/quirk/templates/signup.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 10 Aug 2015 12:47:18 GMT -->
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
   <meta name="description" content="">
   <meta name="author" content="">
-  <!--<link rel="shortcut icon" href="../images/favicon.png" type="image/png">-->
+  
 
-  <title><?php echo $title;?></title>
-
+  <title>Convifarm | Kilimorahisi </title>
+  <link rel="shortcut icon" href="<?php echo base_url()?>assets/images/favicon.png" type="image/png">
   <link rel="stylesheet" href="<?php echo base_url()?>assets/lib/fontawesome/css/font-awesome.css">
   <link rel="stylesheet" href="<?php echo base_url()?>assets/lib/select2/select2.css">
 
   <link rel="stylesheet" href="<?php echo base_url()?>assets/css/quirk.css">
 
-  <script src="../lib/modernizr/modernizr.js"></script>
+  <script src="<?php echo base_url() ?>assets/lib/modernizr/modernizr.js"></script>
   <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!--[if lt IE 9]>
-  <script src="../lib/html5shiv/html5shiv.js"></script>
-  <script src="../lib/respond/respond.src.js"></script>
+  <script src="<?php echo base_url()?>assets/lib/html5shiv/html5shiv.js"></script>
+  <script src="<?php echo base_url()?>assets/lib/respond/respond.src.js"></script>
   <![endif]-->
 </head>
 
@@ -34,11 +36,11 @@
       <div class="col-sm-5">
         <div class="panel">
           <div class="panel-heading">
-            <h1>Quirk</h1>
+              <h1 class="">ConviFarm KilimoRahisi</h1>
             <h4 class="panel-title">Create an Account!</h4>
           </div>
           <div class="panel-body">
-            <button class="btn btn-primary btn-quirk btn-fb btn-block">Sign Up Using Facebook</button>
+            <button class="btn btn-primary btn-quirk  btn-block cf-green">Sign Up Using Facebook</button>
             <div class="or_option">or</div>
             <form action="#">
               <div class="form-group mb15">
@@ -97,7 +99,7 @@
                 </label>
               </div>
               <div class="form-group">
-                <button class="btn btn-success btn-quirk btn-block">Create Account</button>
+                <button class="btn btn-success btn-quirk btn-block cf-green">Create Account</button>
               </div>
             </form>
           </div><!-- panel-body -->
@@ -105,24 +107,24 @@
       </div><!-- col-sm-5 -->
       <div class="col-sm-7">
         <div class="sign-sidebar">
-          <h3 class="signtitle mb20">Two Good Reasons to Love Quirk</h3>
-          <p>When it comes to websites or apps, one of the first impression you consider is the design. It needs to be high quality enough otherwise you will lose potential users due to bad design.</p>
-          <p>Below are some of the reasons why you love Quirk.</p>
+          <h3 class="signtitle mb20">Kilimo Rahisi</h3>
+          <p>Lorum instance ivictus mon realo</p>
+          <p>Lorum instance ivictus mon realo</p>
 
           <br>
 
-          <h4 class="reason">1. Attractive</h4>
-          <p>When your website or app is attractive to use, your users will not simply be using it, they’ll look forward to using it. This means that you should fashion the look and feel of your interface for your users.</p>
+          <h4 class="reason">1. Lorum</h4>
+          <p>Lorum instance ivictus mon realo</p>
 
           <br>
 
-          <h4 class="reason">2. Responsive</h4>
-          <p>Responsive Web design is the approach that suggests that design and development should respond to the user’s behavior and environment based on screen size, platform and orientation. This would eliminate the need for a different design and development phase for each new gadget on the market.</p>
+          <h4 class="reason">2. Lorum</h4>
+          <p>Lorum instance ivictus mon realo</p>
 
           <hr class="invisible">
 
           <div class="form-group">
-            <a href="signin.html" class="btn btn-default btn-quirk btn-stroke btn-stroke-thin btn-block btn-sign">Already a member? Sign In Now!</a>
+            <a href="<?php echo site_url('convifarm/signin'); ?>" class="btn btn-default btn-quirk btn-stroke btn-stroke-thin btn-block btn-sign">Already a member? Sign In Now!</a>
           </div>
         </div><!-- sign-sidebar -->
       </div>
